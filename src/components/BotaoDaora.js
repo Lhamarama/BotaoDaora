@@ -8,7 +8,7 @@ import {
 	TouchableWithoutFeedback 
 } from 'react-native';
 
-export default class animacao extends Component {
+export default class BotaoDaora extends Component {
 	state = {
 		animation: new Animated.Value(0)
 	}
@@ -242,4 +242,4 @@ const styles = StyleSheet.create({
 	}
 });
 
-AppRegistry.registerComponent('animacao', () => animacao);
+AppRegistry.registerComponent('BotaoDaora', () => BotaoDaora);
